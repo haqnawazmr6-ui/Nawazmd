@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: red-zone-md
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+
